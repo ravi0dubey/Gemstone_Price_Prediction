@@ -3,6 +3,8 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+gemstone_env*
+Miniconda3-latest-Linux-x86_64.sh
 # C extensions
 *.so
 
