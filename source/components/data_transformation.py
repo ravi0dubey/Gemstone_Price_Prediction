@@ -1,14 +1,15 @@
 
 import sys
 import os
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
 import pandas as pd
 import numpy as np
 from dataclasses import dataclass
 from pathlib import Path
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
 from source.logger.logger import logging    
 from source.exception.exception import customexception
-from source.utils.utils import save_object,save_numpy_array_data
+from source.utils.utils import save_object
+from sklearn.model_selection import train_test_split
 from sklearn.compose import ColumnTransformer
 from sklearn.impute import SimpleImputer
 from sklearn.pipeline import Pipeline
@@ -18,8 +19,6 @@ from sklearn.preprocessing import OrdinalEncoder,StandardScaler
 @dataclass
 class DataTransformationConfig:
     preprocessor_obj_file_path=os.path.join('artifacts','preprocessor.pkl')
-    train_arr_file_path=os.path.join('artifacts','train.npy')
-    test_arr_file_path=os.path.join('artifacts','test.npy')
 
 
 class DataTransformation:
@@ -103,12 +102,11 @@ class DataTransformation:
             
             train_arr = np.c_[input_feature_train_arr, np.array(target_feature_train_df)]
             test_arr = np.c_[input_feature_test_arr, np.array(target_feature_test_df)]
-            
-            #save numpy array data
-            save_numpy_array_data(file_path=self.data_transformation_config.train_arr_file_path, array=train_arr, )
-            save_numpy_array_data(file_path=self.data_transformation_config.test_arr_file_path,array=test_arr,)
-            save_object(file_path=self.data_transformation_config.preprocessor_obj_file_path,obj=preprocessing_obj)
-            
+
+            save_object(
+                file_path=self.data_transformation_config.preprocessor_obj_file_path,
+                obj=preprocessing_obj
+            )
             
             logging.info("preprocessing pickle file saved")
             
