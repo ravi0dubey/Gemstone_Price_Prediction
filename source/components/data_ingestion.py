@@ -18,13 +18,12 @@ class DataIngestionConfig:
 class DataIngestion:
     def __init__(self):
         self.ingestion_config=DataIngestionConfig()
-        
-
+       
     def initiate_data_ingestion(self):
         logging.info("data ingestion started")
         try:
             logging.info(" Reading dataset")
-            data= pd.read_csv("https://raw.githubusercontent.com/ravi0dubey/DataSets/refs/heads/main/df_clean_updated.csv")
+            data= pd.read_csv("https://raw.githubusercontent.com/ravi0dubey/DataSets/refs/heads/main/gemstone.csv")
             os.makedirs(os.path.dirname(os.path.join(self.ingestion_config.raw_data_path)),exist_ok=True)
             data.to_csv(self.ingestion_config.raw_data_path,index=False)
             logging.info("Raw Dataset stored in Artifact folder")
