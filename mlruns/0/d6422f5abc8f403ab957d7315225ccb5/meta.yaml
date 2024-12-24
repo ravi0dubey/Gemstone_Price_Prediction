@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Study/Data%20Science/MLOPS/Gemstone_Price_Prediction/mlruns/0/d6422f5abc8f403ab957d7315225ccb5/artifacts
+end_time: 1735079208653
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d6422f5abc8f403ab957d7315225ccb5
+run_name: casual-steed-788
+run_uuid: d6422f5abc8f403ab957d7315225ccb5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1735079194671
+status: 4
+tags: []
+user_id: Ravi0dubey

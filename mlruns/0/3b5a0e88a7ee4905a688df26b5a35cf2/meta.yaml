@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Study/Data%20Science/MLOPS/Gemstone_Price_Prediction/mlruns/0/3b5a0e88a7ee4905a688df26b5a35cf2/artifacts
+end_time: 1735078860413
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3b5a0e88a7ee4905a688df26b5a35cf2
+run_name: gregarious-stoat-897
+run_uuid: 3b5a0e88a7ee4905a688df26b5a35cf2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1735078841991
+status: 4
+tags: []
+user_id: Ravi0dubey
