@@ -1,5 +1,7 @@
 import os, sys
 from flask import Flask,request,render_template
+from fastapi import FastAPI,File,Form, UploadFile,Query,Request
+from uvicorn import run as app_run
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
 from source.pipeline.prediction_pipeline import PredictPipeline,CustomData
 
@@ -34,4 +36,4 @@ def predict_datapoint():
 
 
 if __name__=="__main__":
-    app.run(host="0.0.0.0",port=8000)
+    app.run(host="0.0.0.0", port=8012, debug=True)
