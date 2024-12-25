@@ -112,8 +112,8 @@ class DataTransformation:
             logging.info("preprocessing pickle file saved")
             
             return (
-                train_arr,
-                test_arr
+                self.data_transformation_config.train_arr_file_path,
+                self.data_transformation_config.test_arr_file_path
             )
             
         except Exception as e:
