@@ -68,7 +68,7 @@ class ModelTrainer:
             logging.info('Exception occured at Model Training')
             raise customexception(e,sys)
 
-
+# added
 if __name__=="__main__":
     model_trainer_obj=ModelTrainer()
     model_trainer_obj.initate_model_training('artifacts/train.npy','artifacts/test.npy')      

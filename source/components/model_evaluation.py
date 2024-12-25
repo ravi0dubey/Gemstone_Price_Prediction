@@ -17,12 +17,12 @@ class ModelEvaluation:
         logging.info("evaluation started")
 
     def eval_metrics(self,actual,pred):
-        rmse = np.sqrt(mean_squared_error(actual, pred))# here is RMSE
-        mae = mean_absolute_error(actual, pred)# here is MAE
-        r2 = r2_score(actual, pred)# here is r3 value
+        rmse = np.sqrt(mean_squared_error(actual, pred))
+        mae = mean_absolute_error(actual, pred)
+        r2 = r2_score(actual, pred)
         logging.info("evaluation metrics captured")
         return rmse, mae, r2
-
+# added
     def initiate_model_evaluation(self,train_array_path,test_array_path):
         try:
             print(distutils.__file__)

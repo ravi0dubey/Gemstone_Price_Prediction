@@ -104,12 +104,11 @@ class DataTransformation:
             train_arr = np.c_[input_feature_train_arr, np.array(target_feature_train_df)]
             test_arr = np.c_[input_feature_test_arr, np.array(target_feature_test_df)]
             
-            #save numpy array data
             save_numpy_array_data(file_path=self.data_transformation_config.train_arr_file_path, array=train_arr, )
             save_numpy_array_data(file_path=self.data_transformation_config.test_arr_file_path,array=test_arr,)
             save_object(file_path=self.data_transformation_config.preprocessor_obj_file_path,obj=preprocessing_obj)
             
-            
+            # added
             logging.info("preprocessing pickle file saved")
             
             return (
