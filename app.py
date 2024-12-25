@@ -1,7 +1,5 @@
 import os, sys
 from flask import Flask,request,render_template
-from fastapi import FastAPI,File,Form, UploadFile,Query,Request
-from uvicorn import run as app_run
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
 from source.pipeline.prediction_pipeline import PredictPipeline,CustomData
 

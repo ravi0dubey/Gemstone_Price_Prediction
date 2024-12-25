@@ -9,7 +9,7 @@ from source.utils.utils import load_object
 
 class PredictPipeline: 
     def __init__(self):
-        print("init.. the object")
+        print("Prediction is in progress")
 
     def predict(self,features):
         try:
