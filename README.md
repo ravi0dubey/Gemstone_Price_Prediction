@@ -26,3 +26,11 @@ Then Install conda following below steps
 2. conda activate "D:\Study\Data Science\MLOPS\Gemstone_Price_Prediction\gemstone_env"  
 3. pip install -r requirements_dev.txt
 ```
+
+## Step2 : Run Training Pipeline
+To train the model following below steps
+```
+1. mlflow server --host 127.0.0.1 --port 7070
+2. python .\source\pipeline\training_pipeline.py
+
+```
