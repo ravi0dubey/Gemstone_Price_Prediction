@@ -30,7 +30,13 @@ Then Install conda following below steps
 ## Step2 : Run Training Pipeline
 To train the model following below steps
 ```
-1. mlflow server --host 127.0.0.1 --port 7070
-2. python .\source\pipeline\training_pipeline.py
-
+1. mlflow server --host 127.0.0.1 --port 7070(It needs to be executed in one terminal and it should keep on running)
+2. python .\source\pipeline\training_pipeline.py (run it in separate terminal)
 ```
+
+This is how the Experiments should look in MLFLOW
+![image](https://github.com/user-attachments/assets/ddbff8a6-d329-46bf-820e-93982abb2baf)
+The Metrices
+![image](https://github.com/user-attachments/assets/5c5ef678-70d1-46fe-a731-68c99e123a3b)
+
+
