@@ -52,6 +52,10 @@ This is how the Experiments should look in **MLFLOW**
 **The Metrices**
 ![image](https://github.com/user-attachments/assets/5c5ef678-70d1-46fe-a731-68c99e123a3b)
 
+**The Artifacts**
+![image](https://github.com/user-attachments/assets/5ec294e0-daa2-4552-9d23-6910342945ff)
+
+
 ## Step3 : Prediction
 To see the prediction of prices following below steps
 ```
