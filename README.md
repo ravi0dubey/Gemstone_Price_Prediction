@@ -61,6 +61,6 @@ To see the prediction of prices following below steps
 4. Enter the different input values and then press Submit button
 5. You should see predicted price of stone.
 ```
-Home Screen of Diamond Prediction
+**Home Screen** of Diamond Prediction
 ![image](https://github.com/user-attachments/assets/7182ddcd-1969-453b-bb53-01e45649a63d)
 
