@@ -28,7 +28,7 @@ Then Install conda following below steps
 ```
 
 ## Step2 : Run Training Pipeline
-To train the model following below steps
+To train the model follow below steps
 ```
 1. mlflow server --host 127.0.0.1 --port 7070(It needs to be executed in one terminal and it should keep on running)
 2. python .\source\pipeline\training_pipeline.py (run it in separate terminal)
@@ -52,4 +52,8 @@ This is how the Experiments should look in **MLFLOW**
 **The Metrices**
 ![image](https://github.com/user-attachments/assets/5c5ef678-70d1-46fe-a731-68c99e123a3b)
 
-
+## Step3 : Prediction
+To see the prediction of prices following below step
+```
+1.  python .\source\pipeline\prediction_pipeline.py 
+```
