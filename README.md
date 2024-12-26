@@ -62,5 +62,6 @@ To see the prediction of prices following below steps
 5. You should see predicted price of stone.
 ```
 **Home Screen** of Diamond Prediction
-![image](https://github.com/user-attachments/assets/7182ddcd-1969-453b-bb53-01e45649a63d)
+![image](https://github.com/user-attachments/assets/355886b8-bcf3-45d9-99e9-035afa863d20)
+
 
