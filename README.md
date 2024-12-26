@@ -64,4 +64,12 @@ To see the prediction of prices following below steps
 **Home Screen** of Diamond Prediction
 ![image](https://github.com/user-attachments/assets/355886b8-bcf3-45d9-99e9-035afa863d20)
 
+Enter details in **Prediction screen** and click on Submit button
+![image](https://github.com/user-attachments/assets/2bee32fe-8afc-45a1-9db9-a34c551d3dd7)
+
+We will get the price as show below
+![image](https://github.com/user-attachments/assets/a8789b57-633d-4cfc-a8e3-22468d90edda)
+
+
+
 
