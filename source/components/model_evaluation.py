@@ -35,7 +35,7 @@ class ModelEvaluation:
                 test_arr[:,-1])
             model_path=os.path.join("artifacts","model.pkl")
             model=load_object(model_path)
-             #mlflow.set_registry_uri("")            
+            mlflow.set_tracking_uri(uri="http://127.0.0.1:7070")          
             logging.info("model has register")
             tracking_url_type_store=urlparse(mlflow.get_tracking_uri()).scheme
             print(tracking_url_type_store)
