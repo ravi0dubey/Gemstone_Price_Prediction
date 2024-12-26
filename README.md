@@ -33,7 +33,9 @@ To train the model following below steps
 1. mlflow server --host 127.0.0.1 --port 7070(It needs to be executed in one terminal and it should keep on running)
 2. python .\source\pipeline\training_pipeline.py (run it in separate terminal)
 ```
-on running the Training Pipeline
+
+On running the **Training Pipeline** you will get below output and the url to see the Experiments results in MLFLOW. Click on the url http://127.0.0.1:7070/#/experiments/0/runs/9b8d411fd2104a91903594a227cf70ff to see the experiments output
+
 ```
 D:\Study\Data Science\MLOPS\Gemstone_Price_Prediction\new_env\Lib\site-packages\setuptools\_distutils\__init__.py
 http
@@ -44,11 +46,10 @@ Created version '3' of model 'ml_model'.
 🏃 View run welcoming-boar-13 at: http://127.0.0.1:7070/#/experiments/0/runs/9b8d411fd2104a91903594a227cf70ff
 🧪 View experiment at: http://127.0.0.1:7070/#/experiments/0
 ```
-🏃 View run welcoming-boar-13 at: http://127.0.0.1:7070/#/experiments/0/runs/9b8d411fd2104a91903594a227cf70ff
 
-This is how the Experiments should look in MLFLOW
+This is how the Experiments should look in **MLFLOW**
 ![image](https://github.com/user-attachments/assets/ddbff8a6-d329-46bf-820e-93982abb2baf)
-The Metrices
+**The Metrices**
 ![image](https://github.com/user-attachments/assets/5c5ef678-70d1-46fe-a731-68c99e123a3b)
 
 
