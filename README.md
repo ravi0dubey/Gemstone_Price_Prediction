@@ -53,7 +53,14 @@ This is how the Experiments should look in **MLFLOW**
 ![image](https://github.com/user-attachments/assets/5c5ef678-70d1-46fe-a731-68c99e123a3b)
 
 ## Step3 : Prediction
-To see the prediction of prices following below step
+To see the prediction of prices following below steps
 ```
-1.  python .\source\pipeline\prediction_pipeline.py 
+1. python .\app.py
+2. run http://localhost:8012/ to see the main screen
+3. copy http://localhost:8012/predict to new window
+4. Enter the different input values and then press Submit button
+5. You should see predicted price of stone.
 ```
+Home Screen of Diamond Prediction
+![image](https://github.com/user-attachments/assets/7182ddcd-1969-453b-bb53-01e45649a63d)
+
