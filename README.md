@@ -30,11 +30,12 @@ Then Install conda following below steps
 ```
 
 ## Step2 : Data Version Control
-Run below commands to do version control of train.csv file
+Run below commands to do version control of gemstone.csv file
 '''
-1. dvc add artifacts/train.csv
+1. dvc add dataset/gemstone.csv
 '''
-![image](https://github.com/user-attachments/assets/6deb9d22-9d08-4a51-b823-8d244c449049)
+![image](https://github.com/user-attachments/assets/4a2160ef-7802-4b6a-a5f3-a0decf0372c9)
+
 
 ## Step3 : Run Training Pipeline
 To train the model follow below steps
