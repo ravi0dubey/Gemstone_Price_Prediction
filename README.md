@@ -25,6 +25,8 @@ Then Install conda following below steps
 1. conda create  --prefix ./gemstone_env python=3.11.4 -y
 2. conda activate "D:\Study\Data Science\MLOPS\Gemstone_Price_Prediction\gemstone_env"  
 3. pip install -r requirements_dev.txt
+4. pip install dvc
+5. dvc init
 ```
 
 ## Step2 : Run Training Pipeline
