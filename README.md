@@ -29,7 +29,14 @@ Then Install conda following below steps
 5. dvc init
 ```
 
-## Step2 : Run Training Pipeline
+## Step2 : Data Version Control
+Run below commands to do version control of train.csv file
+'''
+1. dvc add artifacts/train.csv
+'''
+![image](https://github.com/user-attachments/assets/6deb9d22-9d08-4a51-b823-8d244c449049)
+
+## Step3 : Run Training Pipeline
 To train the model follow below steps
 ```
 1. mlflow server --host 127.0.0.1 --port 7070(It needs to be executed in one terminal and it should keep on running)
